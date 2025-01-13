@@ -5,5 +5,7 @@ if __name__ == "__main__":
 
     # Modify variables a, b to make the script work without errors
 
+    a = b
+
     # Do not change the line below
     assert a == b

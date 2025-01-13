@@ -6,7 +6,8 @@ if __name__ == "__main__":
 
     # Modify variables `name` and `msg` to make this script work without errors
     # Use variables a, b, my to build a value for variable msg
-    name, msg = None, None
+    name = "BigBob"
+    msg = f"{my.capitalize()} {a} {b} {name}"
 
     # Do not change the line below
     assert msg == f"My name is {name}"

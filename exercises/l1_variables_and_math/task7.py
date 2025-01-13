@@ -3,7 +3,7 @@ if __name__ == "__main__":
     l = [1, 2, 5, 0, -3]
 
     # Modify variable c using list l to make this script work without errors
-    c = None
+    c = l[2]
 
     # Do not change the line below
     assert c == 5

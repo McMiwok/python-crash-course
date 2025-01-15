@@ -5,6 +5,9 @@
 # HINT:
 # Use *
 
+def count_params(*args):
+    return len(args)
+
 # Do not change the below's code
 if __name__ == "__main__":
     assert count_params(1, 2, 3, 4) == 4

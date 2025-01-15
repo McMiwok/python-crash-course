@@ -2,6 +2,12 @@
 # This function should accept an Iterable as a parameter
 # and return its length
 
+def my_len(iterable):
+    count = 0
+    for _ in iterable:
+        count += 1
+    return count
+
 
 # Do not change the below's code
 if __name__ == "__main__":

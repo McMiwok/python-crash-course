@@ -1,6 +1,6 @@
 # Write body of the function to make the script work without errors
 def can_vote(age: int) -> bool:
-    pass
+        return age >= 18
 
 
 # Do not change the below's code

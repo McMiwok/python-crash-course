@@ -5,8 +5,9 @@
 # HINT:
 # Use *
 
-def count_params(*args):
+def count_params(*args) -> int:
     return len(args)
+
 
 # Do not change the below's code
 if __name__ == "__main__":

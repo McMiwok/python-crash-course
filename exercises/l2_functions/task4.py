@@ -2,9 +2,9 @@
 # This function should accept an Iterable as a parameter
 # and return its length
 
-def my_len(iterable):
+def my_len(i) -> int:
     count = 0
-    for _ in iterable:
+    for _ in i:
         count += 1
     return count
 

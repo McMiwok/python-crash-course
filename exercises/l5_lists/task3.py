@@ -4,7 +4,7 @@ from typing import Any
 # Write the body of the function that returns
 # the first element from the list `l`
 def first(l: list[Any]) -> Any:
-    pass
+    return l[0]
 
 
 # Do not change the below's code

@@ -3,7 +3,7 @@ if __name__ == "__main__":
 
     # Modify the value of variable `c` using
     # list `l` to make the script work without errors
-    c = None
+    c = len(l)
 
     # Do not change the below's code
     assert c == 6

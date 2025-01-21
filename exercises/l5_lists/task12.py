@@ -13,7 +13,7 @@ from typing import Any
 # l1: [1, 2, 3, 4]
 # l2: [3, 4]
 def proxy_extend(l1: list[Any], l2: list[Any]):
-    pass
+    l1.extend(l2)
 
 
 # Do not change the below's code

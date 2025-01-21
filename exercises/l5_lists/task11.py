@@ -5,7 +5,7 @@ from typing import Any
 # NOTE: function must create a new list.
 # Do not modify lists passed as arguments
 def combine(l1: list[Any], l2: list[Any]) -> list[Any]:
-    pass
+    return l1 + l2
 
 
 # Do not change the below's code

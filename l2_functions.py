@@ -3,12 +3,11 @@
 # During function declaration, we set parameters.
 #
 # Pay attention to type hinting
-from ast import arg
-from re import L
 from typing import Callable
 
 
 def factorial(n: int) -> int:
+    """Calculate factorial of `n`"""
     res = 1
     i = 1
     while i <= n:

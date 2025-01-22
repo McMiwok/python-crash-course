@@ -6,7 +6,9 @@
 # For example,
 # take("abcd", 3) -> "abc"
 def take(s: str, n: int) -> str:
-    pass
+    if n <= 0:
+        return ""
+    return s[:min(len(s), n)]
 
 
 # Do not change the below's code

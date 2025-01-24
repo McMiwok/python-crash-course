@@ -4,7 +4,7 @@
 # Return `True` is character is present. Return `False` otherwise
 def has_char(s: str, c: str) -> bool:
     for char in s:
-        if char == c:
+        if char in c:
             return True
     return False
 

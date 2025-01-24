@@ -3,10 +3,7 @@
 # and return its length
 
 def my_len(i) -> int:
-    count = 0
-    for _ in i:
-        count += 1
-    return count
+    return len(i)
 
 
 # Do not change the below's code

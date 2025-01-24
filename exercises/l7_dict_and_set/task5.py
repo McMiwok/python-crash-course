@@ -1,7 +1,7 @@
 # Write a body of the function to make it
 # return a min value of dictionary `d`
 def min_value(d: dict[str, int]) -> int:
-    pass
+    return min(d.values())
 
 
 # Do not change the below's code

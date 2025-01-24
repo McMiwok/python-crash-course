@@ -3,7 +3,7 @@
 #
 # HINT: Use `set`
 def unique(l: list[int]) -> list[int]:
-    pass
+    return list(set(l))
 
 
 if __name__ == "__main__":

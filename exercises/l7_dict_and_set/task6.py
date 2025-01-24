@@ -5,7 +5,7 @@ from typing import Any
 # True is `key` exists in dictionary `d`
 # and False otherwise
 def exists(d: dict[Any, Any], key: Any) -> bool:
-    pass
+    return key in d
 
 
 # Do not change the below's code

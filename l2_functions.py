@@ -5,6 +5,10 @@
 # Pay attention to type hinting
 from typing import Callable
 
+def multiply(a: int, b: int) -> int:
+    """Calculate multiply of `a` and `b`"""
+    return a*b
+
 
 def factorial(n: int) -> int:
     """Calculate factorial of `n`"""

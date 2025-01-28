@@ -5,7 +5,8 @@ L10_PATH = Path(__file__).parent
 # Write the function. It should read the content of a file
 # under path and return the content as a string
 def read(path: Path) -> str:
-    pass
+    with open(path, 'r') as f:
+        return f.read()
 
 
 # Do not modify the code below

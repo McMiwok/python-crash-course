@@ -4,6 +4,7 @@
 # HINT: research static methods
 class IntMath:
 
+    @staticmethod
     def pow(v: int, p: int) -> int:
         return v**p
 

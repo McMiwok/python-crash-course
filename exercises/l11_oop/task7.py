@@ -7,6 +7,9 @@ class Point:
         self.x = x
         self.y = y
 
+    def __add__(self, other):
+        if isinstance(other, Point):
+            return Point(self.x + other.x, self.y + other.y)
 
 # Do not change the code below
 if __name__ == "__main__":

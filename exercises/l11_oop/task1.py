@@ -7,6 +7,6 @@ class Vehicle:
 if __name__ == "__main__":
     # Assign the needed value to the variable `c`
     # to make the script work without errors
-    c = None
+    c = Vehicle()
 
     assert isinstance(c, Vehicle)
